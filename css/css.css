@@ -114,14 +114,13 @@ body {
   height: 580px;
   margin-left: 185px; }
 
+.texto, .nombre {
+  list-style: none; }
+
 .nombre {
   font-family: serif;
   text-align: center;
-  background-color: #D5A6BD;
-  list-style: none; }
-
-.texto {
-  list-style: none; }
+  background-color: #D5A6BD; }
 
 .lista {
   font-size: x-large;
@@ -136,8 +135,9 @@ body {
   .img {
     width: 770px;
     height: 355px; }
-  .texto {
-    font-size: small; }
+  .texto, .nombre {
+    font-size: small;
+    max-width: 98%; }
   .tipr {
     font-size: xx-large; }
   .subt {
@@ -149,11 +149,10 @@ body {
   .divpu2 {
     width: 200px;
     height: 200px;
-    margin: 15px;
-    margin-top: 200px; }
+    margin: 15px; }
   .publicidad {
-    width: 100%;
-    height: 80%; }
+    height: 80%;
+    object-fit: cover; }
   .tpublicidad {
     margin: auto;
     height: 20%;
@@ -166,12 +165,39 @@ body {
   .imgmoda1 {
     width: 365px;
     height: 365px;
-    margin-left: 50px;
     margin-top: 10px; }
   .imgmoda {
-    width: 490px;
-    height: 530px;
+    height: 500px;
     margin-left: 25px; }
   .textopub {
     font-size: 15px;
-    margin-left: 15px; } }
+    margin-left: 15px; }
+  .aside {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 0%; }
+  .section {
+    width: 100%; }
+  .main {
+    display: block; }
+  .descripcion {
+    font-size: small; } }
+
+@media screen and (max-width: 425px) {
+  .img {
+    width: 100%;
+    height: 345px; }
+  .barra {
+    font-size: 15px; }
+  .descripcion {
+    font-size: 12px; }
+  .imgmoda {
+    margin-left: 0%;
+    height: 310px;
+    width: 412px; }
+  .imgmoda1 {
+    margin-left: 50px;
+    width: 263px; }
+  .lista {
+    font-size: large; } }

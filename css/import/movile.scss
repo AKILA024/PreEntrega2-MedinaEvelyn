@@ -1,0 +1,70 @@
+@media screen and (max-width: 768px) {
+    .img{
+        width: 770px;
+        height: 355px;
+    }
+    .texto{
+        font-size: small;
+        max-width: 98%;
+    }
+    .tipr{
+        font-size: xx-large;
+    }
+    .subt{
+        font-size: initial;
+    }
+    .divpu{
+        margin: 15px;
+        width: 200px;
+        height: 200px;
+    }
+    .divpu2{
+        width: 200px;
+        height: 200px;
+        margin: 15px;
+    }
+    .publicidad{
+        height: 80%;
+        object-fit: cover;
+    }
+    .tpublicidad{
+        margin: auto;
+        height: 20%;
+        align-items: flex-end;
+        font-size: 15px;
+    }
+    .link{
+        font-size: small;
+        margin: auto;
+        height: 20%;
+    }
+    .imgmoda1{
+        width: 365px;
+        height: 365px;
+        margin-top: 10px;
+    }
+    .imgmoda{
+        height: 500px;
+        margin-left: 25px;
+    }
+    .textopub{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    .aside{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 0%;
+    }
+    .section{
+        width: 100%;
+    }
+    .main{
+        display: block;
+    }
+    .descripcion{
+        font-size: small;
+    }
+
+}

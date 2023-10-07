@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@mixin color {
+    background-color: #D5A6BD;
+}
+.titulo{
+    @include color;
+    height: 80px;
+    padding-top: 1px;
+}
+.logo{
+    color: #fcedfc;
+    text-align: center;
+    font-size: xx-large;
+    animation-name: titulologo;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+
+@keyframes titulologo {
+    0%{
+        opacity: 5%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+.barra{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(161, 130, 161);
+    margin-top: 17px;
+    list-style-type: none;
+}
+.nom{
+    text-decoration: none;
+    color: snow;
+        &:hover {
+            color: rgb(184, 7, 184);
+        }
+}
+.campana{
+    cursor: pointer;
+}
+.img{
+    width: 1360px;
+    height: 500px;
+}
+.title{
+    color: #3b192a;
+    background-color: #f5cce08f;
+    font-size: 35px;
+    font-family:serif;
+    text-decoration: none;
+    font-weight: 600;
+}
+.descripcion{
+    text-align: center;
+    margin-top: 30px;
+    background-color: #ffdaec;
+    margin-bottom: 5px;
+}
+.main{
+    display: flex;
+}
+.section{
+    width: 70%;
+    margin: 6px;
+}
+.tipr{
+    margin-left: -1px;
+    font-family: auto;
+    font-size: 70px;
+}
+.subt{
+    font-size: 22px;
+    font-weight: 200;
+}
+.portada{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.publicidad{ 
+    width:330px ;
+    height: 200px;
+}
+.aside{
+    width: 30%;
+    margin-top: 200px;
+}
+.publicidad{
+    width: 100%;
+}
+.tpublicidad{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 203, 210);
+}
+.link{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.divpu{
+    margin: 35px;
+    border: solid 1px;
+}
+.imgmoda{
+    width:700px;
+    height: 600px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.imgmoda1{
+    width: 500px;
+    height: 580px;
+    margin-left: 185px;
+}
+.texto{
+    list-style: none;
+}
+.nombre{
+    font-family: serif;
+    text-align: center;
+    @include color;
+    @extend .texto;
+}
+.lista{
+    font-size: x-large;
+    font-family: serif;
+}
+.divpu2{
+    margin: 35px;
+    margin-top: 400px;
+    border:solid 1px;
+}
